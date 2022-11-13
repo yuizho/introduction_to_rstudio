@@ -7,7 +7,11 @@ tashizan <- function(a, b) {
   a +b 
 }
 
+
 # ---- file io
+# install.packages("tidyverse")
+# library(tidyverse)
+
 # file read
 # by readr package
 dat2 <- read_csv("SampleData-master/csv/Sales.csv")
